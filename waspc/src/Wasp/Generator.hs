@@ -1,5 +1,8 @@
 module Wasp.Generator
   ( writeWebAppCode,
+
+    -- * Exported for testing only
+    genApp,
     Wasp.Generator.Start.start,
     Wasp.Generator.Test.testWebApp,
     GeneratedAppDir,
